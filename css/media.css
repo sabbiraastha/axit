@@ -1,0 +1,467 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .h_title{
+    font-size: 24px;
+  }
+  .p-title{
+    margin-bottom: 25px;
+  }
+/* banner start */
+.banner{
+  padding: 10px 30px;
+}
+.b_text{
+  margin-bottom: 20px;
+}
+.b_text h1{
+  font-size: 42px;
+}
+.b_text .b_p1 {
+  font-size: 24px;
+  width: 100%;
+  margin: 0;
+}
+.b_text .b_margin {
+  background: white;
+  width: 75px;
+  height: 1px;
+  margin: 18px auto;
+}
+.b_text .b_p2{
+  width: 100%;
+}
+.banner .cus_form{
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  text-align: center;
+}
+/* banner end */
+/* socail section start */
+.socail {
+  padding: 10px 30px;
+}
+.s_text{
+  text-align: center;
+}
+.s_icon ul{
+  padding: 0;
+  margin: 0;
+}
+.s_icon ul li i{
+  font-size: 20px;
+}
+
+/* socail section end */
+/* tab section start */
+.tab{
+  display: none;
+}
+.tab_sm{
+  display: block !important;
+  padding: 10px 30px;
+}
+.tab_sm .nav ul{
+  padding: 0;
+  margin: 0;
+}
+.tab .tab_1 {
+  border-radius: 4px !important;
+}
+.tab .tab_2 {
+  border-radius: 4px !important;
+}
+
+.tab .tab_3 {
+  border-radius: 4px !important;
+}
+.tab .nav-link {
+  width: 65px;
+  height: 45px;
+margin-right: 0;
+}
+.tab .t_btn {
+
+  padding: 5px 10px;
+
+}
+.tab_sm .t_h{
+  font-size: 14px;
+}
+.tab_sm .t_img{
+  margin-top: 30px;
+}
+/* tab section end */
+/* feature 1 start */
+.feature1{
+  padding: 5px 30px;
+}
+.feature1 .f1_pad{
+  text-align: center;
+}
+.f_icon{
+  margin-right: 0;
+}
+.feature1 .hr_line{
+  margin: 18px auto;
+}
+/* feature 1 end *
+/* /feature 2 start */
+.feature2{
+  padding: 10px 30px;
+}
+.feature2 .hr_line{
+  margin: 18px auto;
+}
+.feature2 .f2_pad{
+  text-align: center;
+}
+.feature2 .f2_p1, .feature2 .f2_p2{
+  width: 100%;
+}
+/* feature 2 end */
+/* product start */
+.product{
+  padding: 30px 30px 10px;
+}
+.product .h_title{
+  font-size: 24px;
+}
+.product .p-title{
+}
+.p_item .p_icon{
+  margin-right: 0;
+}
+.p_item{
+  margin-bottom: 30px;
+}
+.p_item p{
+  font-size: 16px;
+  padding: 0;
+}
+.p_item h1{
+  font-size: 20px;
+  margin: 7px 0;
+}
+
+.p_card{
+  margin-bottom: 20px;
+}
+.p_card .p_body h2 {
+  font-size: 27px;
+}
+.p_card .p_body h2 span {
+  font-size: 60px;
+}
+.p_item .p_icon {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+}
+/* product end */
+/* price section start */
+.pricing{
+  padding: 10px 30px;
+}
+.pricing .p-title{
+ 
+}
+
+/* price section end */
+/* customer section start */
+.customer{
+  padding: 10px 30px;
+}
+.customer .p_test{
+  width: 100%;
+}
+/* customer section end */
+/* design section start */
+.design{
+  padding: 10px 30px;
+}
+/* design section end */
+/* contact section start */
+.contact{
+  padding: 10px 30px;
+}
+.contact input{
+  margin-bottom: 20px;
+}
+.contact .message input{
+  padding-bottom: 15%;
+}
+.d_button {
+
+  display: flex !important;
+
+  justify-content: center !important;
+}
+
+/* contact section end */
+/* footer section start */
+.footer{
+  padding: 20px 30px 10px;
+}
+.footer ul li{
+  padding: 0 5px;
+}
+/* footer section end */
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/* banner start */
+.banner{
+  padding: 10px 30px;
+}
+.b_text{
+  margin-bottom: 20px;
+}
+.b_text h1{
+  font-size: 42px;
+}
+.b_text .b_p1 {
+  font-size: 24px;
+  width: 100%;
+  margin: 0;
+}
+.b_text .b_margin {
+  background: white;
+  width: 75px;
+  height: 1px;
+  margin: 18px auto;
+}
+.b_text .b_p2{
+  width: 100%;
+}
+.banner .cus_form{
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  text-align: center;
+}
+.banner form {
+  width: 300px;
+}
+/* banner end */
+/* socail section start */
+.socail {
+  padding: 30px 30px;
+}
+.s_text{
+  text-align: center;
+}
+.s_icon ul{
+  padding: 0;
+  margin: 0;
+}
+.s_icon ul li i{
+  font-size: 20px;
+}
+
+/* socail section end */
+/* tab */
+.tab .nav-link {
+
+  margin-right: 25px;
+ 
+}
+.tab .t_text .t_p1 {
+  width: 100%;
+  margin: 12px 0 16px;
+}
+.tab .t_text .t_p2 {
+  width: 100%;
+  margin-bottom: 0;
+}
+.t_img{
+  display: flex !important;
+  justify-content: center !important;
+}
+/* tab */
+/* feature 1 start */
+.feature1{
+  padding:50px 0;
+}
+.feature1 .f1_pad{
+  text-align: center;
+}
+.f_icon{
+  margin-right: 0;
+}
+.feature1 .hr_line{
+  margin: 18px auto;
+}
+/* feature 1 end *
+/* /feature 2 start */
+.feature2{
+  padding: 50px 30px;
+}
+.feature2 .hr_line{
+  margin: 18px auto;
+}
+.feature2 .f2_pad{
+  text-align: center;
+}
+.feature2 .f2_p1, .feature2 .f2_p2{
+  width: 100%;
+}
+/* feature 2 end */
+/* product section start */
+.product{
+  padding: 50px 0;
+
+}
+.product .p_item p{
+  padding: 5px;
+}
+/* production section end */
+/*  pricing section start*/
+.pricing{
+padding: 50px 0;
+}
+.p_card{
+  margin: 0 -6px;
+}
+.p_card .p_body h6 {
+
+  font-size: 14px;
+}
+.p_special h6 {
+  font-size: 14px;
+}
+.p_card .p_footer h6{
+  font-size: 14px;
+}
+/* pricining section end */
+/* customer section start */
+.customer{
+  padding: 50px 0;
+}
+.customer .p_test p {
+  width: 100%;
+  padding: 15px 7px 0 12px;
+
+}
+.customer .p_test {
+  width: 100%;
+}
+/* customer section end */
+/* design section start */
+.design{
+  padding: 50px 0;
+}
+/* design section end */
+/* contact section start */
+.contact{
+  padding: 50px 30px;
+}
+.contact input{
+  margin-bottom: 20px;
+}
+.contact .message input{
+  padding-bottom: 113px;
+}
+/* contact section end */
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* banner start */
+.banner{
+  padding: 80px 0 90px;
+}
+.b_text .b_p1{
+  font-size: 26px;
+  width: 100%;
+}
+.b_text .b_p2{
+  width: 100%;
+}
+  /* banner end */
+  /* socail start */
+  .socail{
+    padding: 80px 0 90px;
+  }
+
+.s_icon i {
+    font-size: 36px;
+}
+  /* socail end */
+  /* tab start */
+.tab{
+  padding: 80px 0 90px;
+}
+.tab .nav-link {
+  margin-right: 25px;
+}
+.tab .t_text .t_p1 {
+  width: 100%;
+}
+.tab .t_text .t_p2 {
+  width: 100%;
+
+}
+ 
+  /* tab end */
+  .feature1{
+    padding: 80px 0 90px;
+  }
+
+  /* feature 2 start */
+.feature2{
+  padding: 80px 0 90px;
+}
+.feature2 .f2_p1 {
+    width: 100%;
+}
+.feature2 .f2_p2 {
+  width: 100%;
+}
+  /* feature 2 end */
+/* contact statrt */
+.product{
+  padding: 80px 0 90px;
+}
+.pricing{
+  padding: 80px 0 90px;
+}
+.customer{
+  padding: 80px 0 90px;
+}
+.design{
+  padding: 80px 0 90px;
+}
+.contact{
+  padding: 80px 0 90px;
+}
+.contact .message input{
+  padding-bottom: 173px;
+}
+/* contact end */
+}
+
+
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+    
+}
+
+
+
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+    
+}
+
+
+/* 
